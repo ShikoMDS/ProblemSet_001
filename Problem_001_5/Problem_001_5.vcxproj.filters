@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="item.h">
+    <ClInclude Include="include\item.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="weapon.h">
+    <ClInclude Include="include\weapon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sword.h">
+    <ClInclude Include="include\sword.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,13 +29,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="item.cpp">
+    <ClCompile Include="src\item.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="weapon.cpp">
+    <ClCompile Include="src\weapon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sword.cpp">
+    <ClCompile Include="src\sword.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

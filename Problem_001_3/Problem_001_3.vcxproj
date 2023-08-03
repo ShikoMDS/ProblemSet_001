@@ -114,6 +114,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\Shikomisen\Desktop\MDS\GD2S01 Software Engineering Principles and Practices\Assessments\ProblemSet_001\Problem_001_3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +131,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\Shikomisen\Desktop\MDS\GD2S01 Software Engineering Principles and Practices\Assessments\ProblemSet_001\Problem_001_3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,15 +141,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="polygon.h" />
-    <ClInclude Include="rectangle.h" />
-    <ClInclude Include="triangle.h" />
+    <ClInclude Include="include\polygon.h" />
+    <ClInclude Include="include\rectangle.h" />
+    <ClInclude Include="include\triangle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="polygon.cpp" />
-    <ClCompile Include="rectangle.cpp" />
-    <ClCompile Include="triangle.cpp" />
+    <ClCompile Include="src\polygon.cpp" />
+    <ClCompile Include="src\rectangle.cpp" />
+    <ClCompile Include="src\triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

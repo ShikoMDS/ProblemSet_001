@@ -114,6 +114,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\Shikomisen\Desktop\MDS\GD2S01 Software Engineering Principles and Practices\Assessments\ProblemSet_001\Problem_001_6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +131,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\Shikomisen\Desktop\MDS\GD2S01 Software Engineering Principles and Practices\Assessments\ProblemSet_001\Problem_001_6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,17 +141,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="augmentation.h" />
-    <ClInclude Include="item.h" />
-    <ClInclude Include="sword.h" />
-    <ClInclude Include="weapon.h" />
+    <ClInclude Include="include\augmentation.h" />
+    <ClInclude Include="include\item.h" />
+    <ClInclude Include="include\sword.h" />
+    <ClInclude Include="include\weapon.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="augmentation.cpp" />
-    <ClCompile Include="item.cpp" />
+    <ClCompile Include="src\augmentation.cpp" />
+    <ClCompile Include="src\item.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="sword.cpp" />
-    <ClCompile Include="weapon.cpp" />
+    <ClCompile Include="src\sword.cpp" />
+    <ClCompile Include="src\weapon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

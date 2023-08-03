@@ -1,3 +1,20 @@
+/***********************************************************************
+Bachelor of Software Engineering
+Media Design School
+Auckland
+New Zealand
+
+(c) 2023 Media Design School
+
+File Name : main.cpp
+Usage : Entry point for Problem 4 of Problem Set 1.
+Description : This program creates spell instances by taking in a dimension
+	parameter, then calls the calculateArea function to print its area of
+	effect.
+Author : Shikomisen (Ayoub Ahmad)
+Mail : ayoub.ahmad@mds.ac.nz
+**************************************************************************/
+
 #include <iostream>
 #include "spell.h"
 #include "circle.h"

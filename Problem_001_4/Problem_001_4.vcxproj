@@ -114,6 +114,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\Shikomisen\Desktop\MDS\GD2S01 Software Engineering Principles and Practices\Assessments\ProblemSet_001\Problem_001_4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +131,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\Shikomisen\Desktop\MDS\GD2S01 Software Engineering Principles and Practices\Assessments\ProblemSet_001\Problem_001_4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,15 +141,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="circle.h" />
-    <ClInclude Include="spell.h" />
-    <ClInclude Include="square.h" />
+    <ClInclude Include="include\circle.h" />
+    <ClInclude Include="include\spell.h" />
+    <ClInclude Include="include\square.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="src\circle.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="spell.cpp" />
-    <ClCompile Include="square.cpp" />
+    <ClCompile Include="src\spell.cpp" />
+    <ClCompile Include="src\square.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

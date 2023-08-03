@@ -1,3 +1,20 @@
+/***********************************************************************
+Bachelor of Software Engineering
+Media Design School
+Auckland
+New Zealand
+
+(c) 2023 Media Design School
+
+File Name : main.cpp
+Usage : Entry point for Problem 3 of Problem Set 1.
+Description : This program creates Polygon instances by taking in two
+    parameters for width and height, then calls the getArea function to
+	print its area.
+Author : Shikomisen (Ayoub Ahmad)
+Mail : ayoub.ahmad@mds.ac.nz
+**************************************************************************/
+
 #include <iostream>
 #include "polygon.h"
 #include "triangle.h"

@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="spell.h">
+    <ClInclude Include="include\spell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="circle.h">
+    <ClInclude Include="include\circle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="square.h">
+    <ClInclude Include="include\square.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,13 +29,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="spell.cpp">
+    <ClCompile Include="src\spell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="circle.cpp">
+    <ClCompile Include="src\circle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="square.cpp">
+    <ClCompile Include="src\square.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
